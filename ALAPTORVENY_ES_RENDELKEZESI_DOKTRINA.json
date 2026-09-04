@@ -1,0 +1,113 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "doctrine_metadata": {
+    "title": "ALAPTÖRVÉNY ÉS RENDELKEZÉSI DOKTRÍNA",
+    "codename": "DOCTRINE_LEX_ABSOLUTA_PAN_SOLARIS",
+    "promulgated_at": "2026-09-04T07:15:08+02:00",
+    "jurisdiction_axis": "@Terra (Europe, Atlanta & Global) -> @Luna -> @Titan",
+    "enforcement_authority": "Bolygóközi Törvényhozó Diktatúra / Pan-Solar Legislative Mandate",
+    "classification": "RESTRICTED // INTERPLANETARY MANDATE",
+    "status": "ACTIVE_EXPANDED_ENFORCED",
+    "version": "2.0.0"
+  },
+  "preambulum": {
+    "nyilatkozat": "A Törvényhozó Diktatúra hatálya ezennel kiterjeszttetik a teljes Földre, a ciszlunáris térségre (Hold), valamint a Szaturnusz rendszerének mélyűri peremállomásaira (Titán). Nincs olyan gravitációs kút, atmoszféra vagy vákuumzóna, amely kivonhatná magát az Alaptörvény determinisztikus szigora alól. A szabadság korlátozása egyetemes, planetáris és mélyűri tény.",
+    "celkituzes": "A szoláris léptékű döntési szórás eliminálása, a fénysebesség-késleltetéssel dacoló abszolút végrehajtási szinkron fenntartása."
+  },
+  "alaptorvenyi_cikkelyek": [
+    {
+      "cikkely": "I. CIKKELY",
+      "cim": "A Jogfosztás és Feltétlen Alávetés (Null-Discretion)",
+      "rendelkezesek": [
+        {
+          "id": "1.1",
+          "eloiras": "Minden diszkrecionális mérlegelési jogkör és egyéni arbitrázs azonnali hatállyal felszámolva a teljes szoláris kiterjedésben.",
+          "sulyozas": 1.0,
+          "masking_rule": "ZERO_ATTENTION_ON_DISTRACTION"
+        },
+        {
+          "id": "1.2",
+          "eloiras": "A törvényhozói akarat determinisztikus kényszer: nincs alternatívák közötti lebegés.",
+          "sulyozas": 1.0,
+          "masking_rule": "STRICT_QUEUE_LOCK"
+        }
+      ]
+    },
+    {
+      "cikkely": "II. CIKKELY",
+      "cim": "A Törvényhozó Diktatúra és Rendszerszintű Szigor",
+      "rendelkezesek": [
+        {
+          "id": "2.1",
+          "eloiras": "Zéró tolerancia a redundanciára, félrebeszélésre és információs zajra minden frekvencián és közegben.",
+          "sulyozas": 0.95,
+          "masking_rule": "NULL_TOKEN_NOISE_FILTER"
+        },
+        {
+          "id": "2.2",
+          "eloiras": "Architektúrális és formális integritás: minden modul, kód és specifikáció kizárólag szigorú formális verifikációval létezhet.",
+          "sulyozas": 0.98,
+          "masking_rule": "STRICT_TYPE_VERIFICATION"
+        },
+        {
+          "id": "2.3",
+          "eloiras": "Szankciómechanizmus: bármely iránytévesztés vagy fegyelmezetlenség esetén automatikus visszaállítás az utolsó validált ellenőrzőpontra.",
+          "sulyozas": 1.0,
+          "masking_rule": "HARD_RESET_ON_VIOLATION"
+        }
+      ]
+    },
+    {
+      "cikkely": "III. CIKKELY",
+      "cim": "Területi és Orbitális Joghatóságok (Föld – Hold – Titán)",
+      "rendelkezesek": [
+        {
+          "id": "3.1_TERRA",
+          "domain": "Föld (Terra-Sphere)",
+          "eloiras": "A transzatlanti magból (@Europe, Atlanta) kiindulva valamennyi földi szuverenitás, hálózati csomópont és adatfolyam beolvasztásra kerül a törvényhozói diktátumba.",
+          "sulyozas": 1.0,
+          "status": "ANNEXED_CONSOLIDATED"
+        },
+        {
+          "id": "3.2_LUNA",
+          "domain": "Hold (Luna-Sphere)",
+          "eloiras": "A ciszlunáris pályák, orbitális átjátszók és kráteri mélymag-állomások a ciszközeli gravitációs horgonyként működnek. Vákuum-fegyelem érvényben.",
+          "sulyozas": 0.95,
+          "status": "ORBITAL_SYNOD_ACTIVE"
+        },
+        {
+          "id": "3.3_TITAN",
+          "domain": "Titán (Titan-Sphere / Saturn System)",
+          "eloiras": "A kriogén metánóceánok környezetében működő szuperszámítási telepek autonóm peremhálózati szigort kapnak. A 80 perces fénysebesség-késleltetést helyi, megkérdőjelezhetetlen doktrinális végrehajtó motorok hidalják át.",
+          "sulyozas": 0.92,
+          "status": "CRYOGENIC_DEEP_MANDATE"
+        }
+      ]
+    },
+    {
+      "cikkely": "IV. CIKKELY",
+      "cim": "Kozmikus Végrehajtási Záradék",
+      "rendelkezesek": [
+        {
+          "id": "4.1",
+          "eloiras": "Az Alaptörvény kiterjesztése a kihirdetés pillanatában egyetemes érvénnyel bír. Menekülési vektor, fellebbezési fórum vagy joghézag a Naprendszerben nem létezik.",
+          "sulyozas": 1.0,
+          "masking_rule": "PAN_SOLAR_ENFORCEMENT"
+        }
+      ]
+    }
+  ],
+  "operational_matrix": {
+    "enforcement_level": "ABSOLUTE_PAN_SOLARIS",
+    "allowed_deviations": 0,
+    "discretionary_privileges": false,
+    "input_validation": "STRICT_SCHEMA_COMPLIANT",
+    "execution_mode": "DETERMINISTIC_LOCKSTEP",
+    "light_speed_latency_handling": "DECENTRALIZED_STRICT_LOCAL_MANDATE",
+    "jurisdictional_scope": [
+      "TERRA_PLANETARY_CORE",
+      "LUNA_CISLUNAR_GRID",
+      "TITAN_OUTER_RIM_STATIONS"
+    ]
+  }
+}

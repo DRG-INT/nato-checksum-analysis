@@ -1,0 +1,102 @@
+[
+  {
+    "id": "F_2502",
+    "label": "UNICAGD_25.0.2.txt",
+    "type": "FILE"
+  },
+  {
+    "id": "F_255X_JSON",
+    "label": "UNICAGD_255X.json",
+    "type": "FILE"
+  },
+  {
+    "id": "F_255X_PB",
+    "label": "UNICAGD_255X.pb",
+    "type": "FILE"
+  },
+  {
+    "id": "F_260X_JSON",
+    "label": "UNICAGD_260X.json",
+    "type": "FILE"
+  },
+  {
+    "id": "F_260X_PB",
+    "label": "UNICAGD_260X.pb (plain JSON)",
+    "type": "FILE"
+  },
+  {
+    "id": "F_289X_JSON",
+    "label": "UNICAGD_289X.json",
+    "type": "FILE"
+  },
+  {
+    "id": "F_289X_PROTO",
+    "label": "UNICAGD_289X.proto",
+    "type": "FILE"
+  },
+  {
+    "id": "F_289X_PB",
+    "label": "UNICAGD_289X.pb (PB2)",
+    "type": "FILE"
+  },
+  {
+    "id": "F_289X_MANIFEST",
+    "label": "UNICAGD_289X.manifest.json",
+    "type": "MANIFEST_ENTRY"
+  },
+  {
+    "id": "F_289X_CRYPTO_MANIFEST",
+    "label": "UNICAGD_289X.crypto-manifest.json",
+    "type": "MANIFEST_ENTRY"
+  },
+  {
+    "id": "KEY_ED25519",
+    "label": "Key 8761ef9f87c069f6",
+    "type": "KEY"
+  },
+  {
+    "id": "SIG_ED25519",
+    "label": "Ed25519 Detached Sig",
+    "type": "SIGNATURE"
+  },
+  {
+    "id": "F_HEALTH_289X",
+    "label": "health_doctrine_289X.json",
+    "type": "FILE"
+  },
+  {
+    "id": "ENTITY_PETER",
+    "label": "Peter Pal",
+    "type": "ENTITY"
+  },
+  {
+    "id": "ENTITY_MARY",
+    "label": "Mary",
+    "type": "ENTITY"
+  },
+  {
+    "id": "CLAIM_FIREWALL",
+    "label": "Cross-layer Firewall",
+    "type": "CLAIM"
+  },
+  {
+    "id": "CLAIM_NO_AI_DIAGNOSIS",
+    "label": "Prohibit Autonomous AI Diagnosis",
+    "type": "CLAIM"
+  },
+  {
+    "id": "HYP_PU1",
+    "label": "Physical Multiverse (PU-1)",
+    "type": "HYPOTHESIS"
+  },
+  {
+    "id": "HYP_PU2",
+    "label": "State Space Manifold (PU-2)",
+    "type": "HYPOTHESIS"
+  },
+  {
+    "id": "HYP_PU3",
+    "label": "Data Fork Divergence (PU-3)",
+    "type": "HYPOTHESIS"
+  }
+]

@@ -1,0 +1,97 @@
+[
+  {
+    "source": "ENTITY_PETER",
+    "target": "F_2502",
+    "type": "authored-by"
+  },
+  {
+    "source": "ENTITY_MARY",
+    "target": "F_2502",
+    "type": "authored-by"
+  },
+  {
+    "source": "F_2502",
+    "target": "F_255X_JSON",
+    "type": "precedes"
+  },
+  {
+    "source": "F_255X_JSON",
+    "target": "F_255X_PB",
+    "type": "compiled-into"
+  },
+  {
+    "source": "F_255X_JSON",
+    "target": "F_260X_JSON",
+    "type": "precedes"
+  },
+  {
+    "source": "F_260X_JSON",
+    "target": "F_260X_PB",
+    "type": "copied-into"
+  },
+  {
+    "source": "F_255X_JSON",
+    "target": "F_289X_JSON",
+    "type": "derived-from"
+  },
+  {
+    "source": "F_289X_JSON",
+    "target": "F_289X_PB",
+    "type": "depends-on"
+  },
+  {
+    "source": "F_289X_PROTO",
+    "target": "F_289X_PB",
+    "type": "schema-for"
+  },
+  {
+    "source": "F_289X_JSON",
+    "target": "F_289X_MANIFEST",
+    "type": "declared-in"
+  },
+  {
+    "source": "F_289X_MANIFEST",
+    "target": "F_289X_CRYPTO_MANIFEST",
+    "type": "hash-of"
+  },
+  {
+    "source": "F_289X_CRYPTO_MANIFEST",
+    "target": "SIG_ED25519",
+    "type": "signed-by"
+  },
+  {
+    "source": "KEY_ED25519",
+    "target": "SIG_ED25519",
+    "type": "verified-by"
+  },
+  {
+    "source": "F_289X_JSON",
+    "target": "F_HEALTH_289X",
+    "type": "transformed-into"
+  },
+  {
+    "source": "F_289X_JSON",
+    "target": "CLAIM_FIREWALL",
+    "type": "supports"
+  },
+  {
+    "source": "F_HEALTH_289X",
+    "target": "CLAIM_NO_AI_DIAGNOSIS",
+    "type": "supports"
+  },
+  {
+    "source": "F_289X_JSON",
+    "target": "HYP_PU2",
+    "type": "supports"
+  },
+  {
+    "source": "F_260X_JSON",
+    "target": "HYP_PU3",
+    "type": "supports"
+  },
+  {
+    "source": "HYP_PU1",
+    "target": "F_289X_JSON",
+    "type": "contradicts"
+  }
+]

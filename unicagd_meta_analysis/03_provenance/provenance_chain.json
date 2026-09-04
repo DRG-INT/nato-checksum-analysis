@@ -1,0 +1,51 @@
+[
+  {
+    "authors": [
+      "Peter Pal",
+      "Mary"
+    ],
+    "date": "2026-02-12T04:14:18Z",
+    "format": "Plain JSON Cube Tensor (21x21x6 = 2646 cells)",
+    "governance": "self_organizing: true, non_self_destructive: true",
+    "organization": "Intercom form. •refract",
+    "stage": "SEED_LEGACY",
+    "version": "UNICAGD_25.0.2"
+  },
+  {
+    "authors": [
+      "Declared in metadata"
+    ],
+    "date": "2026-03-03T09:07:17Z",
+    "format": "Google Protobuf Struct wrapping large JSON (2.9 MB JSON, 1.4 MB PB)",
+    "governance": "COMPACTIBILITY_ENVELOPES (NATO_SANDBOX, GOD_MODE, etc.)",
+    "stage": "INTERMEDIATE_UPGRADE",
+    "version": "UNICAGD_255X"
+  },
+  {
+    "anomaly": "Timestamp precedes 255X by 3 days despite higher version number 260X; .pb is raw JSON.",
+    "date": "2026-02-28T07:33:09Z",
+    "format": "11 MB JSON (1700x441 weight matrix), fake plain-text .pb, pseudo-signature",
+    "stage": "ANOMALOUS_BRANCH",
+    "version": "UNICAGD_260X (model_id: UNICAGD_25.9.0)"
+  },
+  {
+    "authors": [
+      "Intelligence Operating System Core Team"
+    ],
+    "date": "2026-03-12T00:30:57Z",
+    "format": "Custom Protobuf Schema (UNICAGD_288X) + PB2 container + Ed25519 detached signature",
+    "governance": "Cross-layer firewall: no downward projection, no decision derivation",
+    "stage": "CANONICAL_IOS_RELEASE",
+    "version": "UNICAGD_289X"
+  },
+  {
+    "authors": [
+      "Clinical Safety & Governance Layer"
+    ],
+    "date": "2026-06-18",
+    "format": "Schema-preserving conversion of 289X into health governance control plane",
+    "governance": "Strict prohibition on AI diagnosis, prescription, or involuntary intervention",
+    "stage": "HEALTH_DOCTRINE_TRANSFORMATION",
+    "version": "HEALTH_DOCTRINE_GOVERNED_AI_FROM_UNICAGD_289X"
+  }
+]

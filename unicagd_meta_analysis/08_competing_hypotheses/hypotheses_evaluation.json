@@ -1,0 +1,65 @@
+[
+  {
+    "confidence": 0.85,
+    "counterevidence": "Szokatlan és túlburjánzó katonai/hírszerzési doktrína-terminológia (NATO, GOD_MODE, DIANA).",
+    "description": "A UNICAGD egy szoftvermérnöki / kvantitatív pénzügyi / OSINT kísérleti platform, amelyet 2026 elején fejlesztettek ki, különféle matematikai elméleteket ötvözve.",
+    "id": "H0",
+    "name": "Konvencionális / Legegyszerűbb Magyarázat",
+    "status": "HIGHLY_PLAUSIBLE",
+    "support": "A fájlok struktúrája (Python, Rust, Julia, C99, JSON, Protobuf), valós matematikai egyenletek (PDMP, GARCH, Markov, SDF), működő hash-ek és git commitok."
+  },
+  {
+    "confidence": 0.95,
+    "counterevidence": "Az Offon mappában levő kriptográfiai lánc precíz és matematikai pontossággal záródik.",
+    "description": "A rendszer több különböző párhuzamos fejlesztési fázis, másolat és félkész build keveréke, ahol tesztfájlok és vázlatok keveredtek éles artifactokkal.",
+    "id": "H1",
+    "name": "Adat- és Dokumentációs Inkonzisztencia Hipotézis",
+    "status": "CONFIRMED_FACT",
+    "support": "260X plain JSON .pb fájl, 255X null aláírás, 289X Sites 32-bájtos csonka aláírás vs Offon 64-bájtos érvényes Ed25519."
+  },
+  {
+    "confidence": 0.99,
+    "counterevidence": "Nincs.",
+    "description": "A 255X, 260X és 289X nem lineáris egymásutániságban készültek, hanem forkolt ágakon, amit az időbélyeg-anomáliák (260X: feb 28, 255X: március 3) bizonyítanak.",
+    "id": "H2",
+    "name": "Verzió / Fork / Provenance Eltérés",
+    "status": "CONFIRMED_FACT",
+    "support": "Közvetlen időbélyeg-összehasonlítás a manifestekben."
+  },
+  {
+    "confidence": 0.9,
+    "counterevidence": "Nincs empirikus ellenbizonyíték.",
+    "description": "A felhasználó vagy külső elemző a metaforikus vagy magasdimenziós matematikai tereket (7D/9D) fizikailag létező párhuzamos világokként értelmezte.",
+    "id": "H3",
+    "name": "Hibás Interpretáció Hipotézis",
+    "status": "HIGHLY_PLAUSIBLE",
+    "support": "A morfológiai jelentés világossá teszi, hogy a 7D/9D koordináták R^7/R^9 állapotvektorok, nem fizikai dimenziók."
+  },
+  {
+    "confidence": 0.95,
+    "counterevidence": "Nincs.",
+    "description": "Orvosi és jogi kartonok hiánya miatt a klinikai állítások feloldhatatlannak tűnnek.",
+    "id": "H4",
+    "name": "Hiányos Adat Miatti Látszólagos Ellentmondás",
+    "status": "CONFIRMED_FACT",
+    "support": "Nincsenek orvosi fájlok a lemezen."
+  },
+  {
+    "confidence": 0.9,
+    "counterevidence": "A rendszer korábbi verziói még katonai/piaci fókuszúak voltak.",
+    "description": "A UNICAGD átalakult egy szigorúan szabályozott egészségügyi AI irányítási rendszerré (Health Doctrine), ahol az AI döntési jogköre korlátozott.",
+    "id": "H5",
+    "name": "Alternatív Oksági Modell (Egészségügyi Biztonsági Rendszer)",
+    "status": "SUPPORTED",
+    "support": "health_doctrine_governed_ai_UNICAGD_289X.json és SCHEMA_WEIGHTED.json megléte és pontos 100 000 egységes súlyeloszlása."
+  },
+  {
+    "confidence": 0.05,
+    "counterevidence": "Dokumentumok teljes hiánya; standard pszichiátriai ellátórendszeri dinamikák elegendő magyarázatot adnak.",
+    "description": "Intézményi és családi összeesküvés szándékos félrediagnosztizálással és manipulációval.",
+    "id": "H6",
+    "name": "Speciális Felhasználói Összeesküvés Hipotézis",
+    "status": "UNSUPPORTED",
+    "support": "Nulla dokumentált bizonyíték."
+  }
+]

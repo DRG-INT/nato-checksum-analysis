@@ -1,0 +1,35 @@
+{
+  "evaluation_timestamp": "2026-09-04T04:36:23Z",
+  "packages": {
+    "UNICAGD_255X": {
+      "cryptographic_proof": false,
+      "manifest_integrity": "PASS",
+      "reason": "signature_b64 is null; placeholder for offline signing",
+      "signature_status": "UNSIGNED",
+      "signature_type": "ed25519_stub"
+    },
+    "UNICAGD_260X": {
+      "cryptographic_proof": false,
+      "manifest_integrity": "PASS",
+      "reason": "Bare SHA-256 digest of manifest; no asymmetric key or proof of author identity",
+      "signature_status": "PSEUDO_SIGNATURE",
+      "signature_type": "sha256-release-signature"
+    },
+    "UNICAGD_289X_crypto_offload": {
+      "boundary_warning": "Proves exact byte integrity against private key 8761ef9f87c069f63678294a242a11de; does not prove civil/legal truth of claims.",
+      "canonical_json_sha256": "46ca24d82b6527b05da60db47a53d2da860057dfae633d500aada6c9b9b90181",
+      "key_id": "8761ef9f87c069f63678294a242a11de",
+      "manifest_integrity": "PASS",
+      "signature_bytes": 64,
+      "signature_status": "VALID",
+      "signature_type": "Ed25519"
+    },
+    "UNICAGD_289X_local_sites": {
+      "cryptographic_proof": false,
+      "manifest_integrity": "PASS",
+      "reason": "signature_b64 is 32 bytes (must be 64 bytes for Ed25519)",
+      "signature_status": "INVALID",
+      "signature_type": "ed25519_malformed"
+    }
+  }
+}

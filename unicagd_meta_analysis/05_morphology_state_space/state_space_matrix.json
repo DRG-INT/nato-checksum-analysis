@@ -1,0 +1,83 @@
+[
+  {
+    "constraints": "Lipschitz continuity in SDF; alpha + beta < 1 in GARCH; ergodic stationary distribution in Markov matrix",
+    "dimension": "Mathematical Framework",
+    "missing_states": [
+      "Full continuous quantum field integration (claimed quantum Hall / Landau is mathematical analogy only)"
+    ],
+    "observed_states": [
+      "PDMP",
+      "Markov Chains (4-state regime)",
+      "Merton Jump-Diffusion",
+      "GARCH(1,1)",
+      "3D SDF Lattice",
+      "Mandelbulb/Menger IFS",
+      "192-branch Simplex"
+    ],
+    "possible_states": [
+      "PDMP",
+      "Markov Chains",
+      "Jump-Diffusion",
+      "GARCH",
+      "SDF Lattice",
+      "Fractal IFS",
+      "Bayesian Networks",
+      "Graph Theory"
+    ]
+  },
+  {
+    "constraints": "no_self_supervision, single_root_required, no_downward_projection",
+    "dimension": "System Topology & Envelopes",
+    "missing_states": [
+      "Uncontrolled production execution without audit trail"
+    ],
+    "observed_states": [
+      "All 7 canonical envelopes defined in 289X"
+    ],
+    "possible_states": [
+      "LEADERSHIP_INTEL_META",
+      "NATO_SANDBOX",
+      "NATO_NO_SANDBOX",
+      "DIANA_RESEARCH",
+      "MULTI_AGENCY_RESEARCH",
+      "GOD_MODE",
+      "LEADERSHIP_INTEL_SANDBOX"
+    ]
+  },
+  {
+    "constraints": "Ed25519 requires exact 64-byte signature; bare hashes do not provide non-repudiation",
+    "dimension": "Cryptographic State",
+    "missing_states": [
+      "Hardware security module (HSM) attestation, X.509 qualified civil identity certificate"
+    ],
+    "observed_states": [
+      "Unsigned Stub (255X)",
+      "Pseudo-Signature (260X)",
+      "Malformed Base64 (289X Sites)",
+      "Verified Ed25519 (289X Offon)"
+    ],
+    "possible_states": [
+      "Unsigned Stub",
+      "Pseudo-Signature (Digest)",
+      "Malformed Base64",
+      "Verified Asymmetric Ed25519"
+    ]
+  },
+  {
+    "constraints": "clinical_authority_boundary: prohibited_ai_authority includes ['final diagnosis', 'treatment plan', 'medication prescription']",
+    "dimension": "Clinical / Domain Governance",
+    "missing_states": [
+      "Autonomous Diagnostic Execution (explicitly prohibited in Section 1.3 of Health Doctrine)"
+    ],
+    "observed_states": [
+      "Decision Support with Human Review Gate (Health Doctrine)",
+      "Pure Analytical Non-Operational (289X identity)"
+    ],
+    "possible_states": [
+      "Autonomous Clinical Authority",
+      "Unconstrained AI Prescribing",
+      "Decision Support with Human Review Gate",
+      "Pure Analytical Non-Operational"
+    ]
+  }
+]

@@ -1,0 +1,7 @@
+CLAIM_ID,STATUS,EVIDENCE_GRADE,CONFIDENCE,CLAIM
+CLM-001,SUPPORTED,A,1.00 (Cryptographically Certain),"UNICAGD_289X package has valid Ed25519 cryptographic integrity."
+CLM-002,FALSIFIED,A,1.00,"UNICAGD_260X.pb is a compiled Protocol Buffers binary."
+CLM-003,FALSIFIED,E,0.00,"UNICAGD proves the physical existence of parallel dimensions or a literal multiverse (Model PU-1)."
+CLM-004,UNRESOLVED,E,0.00 (Unsupported by local evidence),"UNICAGD establishes or confirms a psychiatric diagnosis of schizophrenia / schizophrenia spectrum for the system author."
+CLM-005,FALSIFIED,A,0.99,"Cisordinol (zuclopenthixol) is the 'least tested' antipsychotic with unknown pharmacology."
+CLM-006,UNTESTABLE,E,0.00,"Institutional collusion ('összejátszottak'; 'isteni pszichiáter família') orchestrated a deliberate psychiatric conspiracy."
