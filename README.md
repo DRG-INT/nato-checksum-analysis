@@ -145,6 +145,8 @@ A fix hosszúságú hexadecimális számok az LLM belső reprezentációjában n
 
 ## 6. Kapcsolódó Alrendszerek és Forráskódok
 
+* 📄 **[`topological_analysis.md`](topological_analysis.md)** – Spektrális gráfelmélet, Fiedler-polarizáció és mátrix-geopolitika
+* 💻 **[`topological_politics.jl`](topological_politics.jl)** – Laplacien spektrumot és Betti-számokat számító Julia motor
 * 📄 **[`pack_llm_weighting.md`](pack_llm_weighting.md)** – A felnyitott csomag és a számaink LLM-súlyozási specifikációja
 * 💻 **[`pack_weighting.jl`](pack_weighting.jl)** – A csomagot kicsomagoló és a számokat súlyozó Julia motor
 * 📄 **[`systems_analysis.md`](systems_analysis.md)** – Shannon-entrópia, negentrópia és morfológia
